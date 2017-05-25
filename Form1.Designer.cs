@@ -74,6 +74,7 @@
             this.przycisk_start.TabIndex = 3;
             this.przycisk_start.Text = "Start";
             this.przycisk_start.UseVisualStyleBackColor = true;
+            this.przycisk_start.Click += new System.EventHandler(this.przycisk_start_Click);
             // 
             // przycisk_stop
             // 
